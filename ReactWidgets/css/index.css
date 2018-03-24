@@ -1,0 +1,59 @@
+body {
+  background-color: #2A324B;
+}
+
+.clock {
+  font-family: 'Abril Fatface', cursive;
+  display: flex;
+  justify-content: center;
+  background-color: #F7C59F;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.date-label {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-family: 'Abril Fatface', cursive;
+  display: flex;
+  align-items: flex-start;
+}
+
+.tabs {
+  background-color: #E1E5EE;
+  width: 240px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.tab-header {
+  position: relative;
+  background-color: #767B91;
+  width: 240px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.tab-header li {
+  list-style: none;
+  border: 1px solid black;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 33%;
+  height: 100%;
+}
+
+.currentTab {
+  border-bottom: 0px;
+}
+
+.quote {
+  padding: 25px;
+  align-items: center;
+}
